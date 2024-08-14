@@ -1,25 +1,27 @@
-# **Discoreo - Discord Bot Template**
+# 🌟 **Discoreo - Your Discord Bot Template**
 
-## Description
+![Discoreo Banner](https://via.placeholder.com/1000x200.png?text=Discoreo+-+Discord+Bot+Template)
 
-**Discoreo** est un template de bot Discord simple et extensible, conçu pour vous aider à démarrer rapidement le développement de votre propre bot Discord. Ce projet est construit en utilisant [Discord.js](https://discord.js.org/), une bibliothèque puissante pour interagir avec l'API Discord.
+## 🚀 Introduction
 
-### Fonctionnalités
+**Discoreo** est un **template** de bot Discord moderne, flexible et facile à personnaliser. Conçu pour accélérer le développement de votre bot, il est construit sur la solide fondation de [Discord.js](https://discord.js.org/), une bibliothèque JavaScript pour interagir avec l'API Discord.
 
-- **Commandes de base** : Exemple de commandes de base (`!ping`, `!hello`, etc.) pour vous aider à comprendre comment ajouter vos propres fonctionnalités.
-- **Gestion des événements** : Gère facilement les événements Discord comme les messages, les nouvelles connexions, et plus encore.
-- **Structure modulaire** : Organisé de manière à ce que chaque commande et événement soit facilement maintenable et extensible.
-- **Configuration facile** : Fichier `.env` pour la configuration de vos clés et tokens.
+### ✨ Fonctionnalités principales
 
-## Prérequis
+- **📜 Commandes de base** : Prêt à l'emploi avec des commandes d'exemple (`!ping`, `!hello`) pour vous aider à démarrer rapidement.
+- **⚙️ Gestion des événements** : Configuration simplifiée pour gérer les événements Discord, comme les messages ou les nouvelles connexions.
+- **📦 Structure modulaire** : Architecture organisée pour une maintenance et une extension faciles.
+- **🔧 Configuration simplifiée** : Fichier `.env` pour une gestion centralisée de vos clés et tokens.
 
-- Node.js version 16 ou supérieure.
-- Un bot Discord avec un token.
+## 📋 Prérequis
+
+- **Node.js** version 16 ou supérieure.
+- **Token Discord** pour votre bot.
 - [Discord.js](https://discord.js.org/) version 14 ou supérieure.
 
-## Installation
+## 🛠️ Installation
 
-1. Clonez le repository :
+1. **Clonez le repository** :
 
    ```bash
    git clone https://github.com/votre-utilisateur/discoreo.git
