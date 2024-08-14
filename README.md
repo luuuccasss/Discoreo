@@ -1,28 +1,51 @@
-# 🌟 **Discoreo - Your Discord Bot Template**
+Voici un exemple de README pour ton bot "Discoreo" sans afficher les commandes spécifiques :
 
-![Discoreo Banner](https://via.placeholder.com/1000x200.png?text=Discoreo+-+Discord+Bot+Template)
+---
 
-## 🚀 Introduction
+# Discoreo Bot - README
 
-**Discoreo** est un **template** de bot Discord moderne, flexible et facile à personnaliser. Conçu pour accélérer le développement de votre bot, il est construit sur la solide fondation de [Discord.js](https://discord.js.org/), une bibliothèque JavaScript pour interagir avec l'API Discord.
+## Introduction
 
-### ✨ Fonctionnalités principales
+**Discoreo** est un bot Discord polyvalent conçu pour améliorer la gestion de serveurs, offrir des fonctionnalités amusantes, et fournir des informations détaillées sur les serveurs et les utilisateurs. Ce bot est simple d'utilisation et peut être intégré dans n'importe quel serveur Discord pour faciliter la modération, divertir les membres et accéder facilement aux informations clés.
 
-- **📜 Commandes de base** : Prêt à l'emploi avec des commandes d'exemple (`!ping`, `!hello`) pour vous aider à démarrer rapidement.
-- **⚙️ Gestion des événements** : Configuration simplifiée pour gérer les événements Discord, comme les messages ou les nouvelles connexions.
-- **📦 Structure modulaire** : Architecture organisée pour une maintenance et une extension faciles.
-- **🔧 Configuration simplifiée** : Fichier `.env` pour une gestion centralisée de vos clés et tokens.
+## Fonctionnalités
 
-## 📋 Prérequis
+### Modération
+Discoreo fournit des outils essentiels pour maintenir l'ordre sur votre serveur. Les commandes de modération vous permettent de gérer les comportements indésirables en expulsant, bannissant, ou supprimant les messages de manière efficace et rapide.
 
-- **Node.js** version 16 ou supérieure.
-- **Token Discord** pour votre bot.
-- [Discord.js](https://discord.js.org/) version 14 ou supérieure.
+### Fun
+Discoreo ajoute une touche de fun à votre serveur avec des commandes interactives, comme l'affichage de l'avatar des utilisateurs, pour rendre l'expérience des membres plus divertissante.
 
-## 🛠️ Installation
+### Informations
+Accédez facilement aux détails importants concernant le serveur et ses membres avec les commandes d'information. Que ce soit pour obtenir des données sur un utilisateur ou des statistiques du serveur, Discoreo vous donne les informations dont vous avez besoin en un instant.
 
-1. **Clonez le repository** :
+## Installation
 
+1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/votre-utilisateur/discoreo.git
-   cd discoreo
+   git clone https://github.com/votre-repo/discoreo.git
+   ```
+2. Installez les dépendances requises avec `pip` :
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Configurez les variables d'environnement, notamment le token du bot Discord.
+4. Démarrez le bot :
+   ```bash
+   python bot.py
+   ```
+
+## Utilisation
+
+Une fois le bot démarré, vous pouvez l'ajouter à votre serveur Discord et commencer à utiliser les différentes commandes de modération, de fun et d'information. Consultez la documentation pour voir la liste complète des commandes et leurs descriptions.
+
+## Contributions
+
+Les contributions sont les bienvenues ! Si vous avez des idées pour améliorer Discoreo, n'hésitez pas à soumettre une pull request ou à ouvrir une issue.
+
+## Licence
+
+Ce projet est sous licence MIT. Pour plus de détails, veuillez consulter le fichier [LICENSE](LICENSE).
+
+---
+
