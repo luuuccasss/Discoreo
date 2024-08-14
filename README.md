@@ -53,6 +53,9 @@ Discoreo is a bot template with a few basic commands located in the `Commands` f
 
 Contributions are welcome! If you would like to add features or improve the template, feel free to submit a pull request or open an issue.
 
+## 📢 Contact
+If you have any questions, need assistance, or just want to connect, feel free to add me on Discord: luuuccasss.
+
 ## 📜 License
 
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
