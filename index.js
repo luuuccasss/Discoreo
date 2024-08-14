@@ -40,15 +40,14 @@ for (const file of eventFiles) {
     const eventName = file.split('.')[0];
     client.on(eventName, (...args) => {
         console.log(`\nEvent triggered: ${eventName}`);
-        printGitHubLink();  // Print GitHub link when an event is triggered
+        printGitHubLink();  
         event(client, ...args);
     });
 }
 
-// Log in the bot using the token from the config file
 client.login(config.token)
     .then(() => {
         console.log('Bot logged in successfully.');
-        printGitHubLink();  // Print GitHub link after the bot logs in
+        printGitHubLink();  
     })
     .catch(console.error);
