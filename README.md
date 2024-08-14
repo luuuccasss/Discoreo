@@ -1,4 +1,4 @@
-Voici une version du README pour ton bot "Discoreo" avec des emojis pour rendre le tout plus visuel et attrayant :
+Certainly! Here’s the updated README for your "Discoreo" bot, translated into English:
 
 ---
 
@@ -6,67 +6,56 @@ Voici une version du README pour ton bot "Discoreo" avec des emojis pour rendre 
 
 ## 📝 Introduction
 
-**Discoreo** est un bot Discord polyvalent conçu pour améliorer la gestion des serveurs, offrir des fonctionnalités amusantes 🎉, et fournir des informations utiles ℹ️ sur les serveurs et les utilisateurs. Ce bot est facile à utiliser et peut être intégré dans n'importe quel serveur Discord pour faciliter la modération, divertir les membres, et obtenir des informations clés.
+**Discoreo** is a Discord bot developed with **Node.js 16** and **Discord.js v13**. This bot serves as a template, providing a solid foundation to build your own Discord bot. It includes a few basic commands in the `/` folder for moderation, fun, and information, which you can easily customize or extend to meet your needs.
 
-## ⚙️ Fonctionnalités
+## ⚙️ Features
 
-### 🔨 Commandes de Modération
+### 🔨 Moderation
+Discoreo offers essential tools for maintaining order on your server. The included basic commands allow you to manage undesirable behavior effectively.
 
-- **`!kick [@utilisateur] [raison]`**  
-  Expulse un utilisateur du serveur.  
-  _Exemple : `!kick @Utilisateur Spamming`_
+### 🎮 Fun
+Add some fun to your server with interactive commands. Members can engage with the bot for light-hearted and entertaining features.
 
-- **`!ban [@utilisateur] [raison]`**  
-  Bannit un utilisateur du serveur.  
-  _Exemple : `!ban @Utilisateur Violations des règles`_
-
-- **`!clear [nombre]`**  
-  Supprime un nombre spécifié de messages dans le salon actuel.  
-  _Exemple : `!clear 100`_
-
-### 🎮 Commandes Fun
-
-- **`!avatar [@utilisateur]`**  
-  Affiche l'avatar de l'utilisateur mentionné.  
-  _Exemple : `!avatar @Utilisateur`_
-
-### 🔍 Commandes d'Information
-
-- **`!serverinfo`**  
-  Affiche des informations détaillées sur le serveur actuel.  
-  _Exemple : `!serverinfo`_
-
-- **`!userinfo [@utilisateur]`**  
-  Affiche des informations détaillées sur l'utilisateur mentionné.  
-  _Exemple : `!userinfo @Utilisateur`_
+### 🔍 Information
+Quickly retrieve key information about your server and its members with the provided information commands.
 
 ## 🚀 Installation
 
-1. Clonez ce dépôt sur votre machine locale :
+1. **Download this repo**:  
+   Clone the repository to your local machine:
+
+2. **Install dependencies**:  
+   Navigate to the project directory and install the required dependencies:
    ```bash
-   git clone https://github.com/votre-repo/discoreo.git
-   ```
-2. Installez les dépendances requises avec `pip` :
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Configurez les variables d'environnement, notamment le token du bot Discord.
-4. Démarrez le bot :
-   ```bash
-   python bot.py
+   npm install
    ```
 
-## 📚 Utilisation
+3. **Configure environment variables**:  
+   Modify the `config.json` file at the root of the project with your Discord token and other necessary configurations:
+   ```json
+   {
+     "token": "YOUR-TOKEN",
+     "clientId": "CLIENT-ID",
+     "guildId": "GUILD-ID"
+   }
+   ```
 
-Une fois le bot démarré, vous pouvez l'ajouter à votre serveur Discord et commencer à utiliser les différentes commandes de modération, de fun et d'information. Consultez la documentation pour voir la liste complète des commandes et leurs descriptions.
+4. **Start the bot**:  
+   Launch the bot using Node.js:
+   ```bash
+   node index.js
+   ```
+
+## 📚 Usage
+
+Discoreo is a bot template with a few basic commands located in the `Commands` folder. You can modify or add commands following the same model. This bot is ideal for quickly getting started with a customized Discord bot.
 
 ## 🤝 Contributions
 
-Les contributions sont les bienvenues ! Si vous avez des idées pour améliorer Discoreo, n'hésitez pas à soumettre une pull request ou à ouvrir une issue.
+Contributions are welcome! If you would like to add features or improve the template, feel free to submit a pull request or open an issue.
 
-## 📜 Licence
+## 📜 License
 
-Ce projet est sous licence MIT. Pour plus de détails, veuillez consulter le fichier [LICENSE](LICENSE).
+This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
 
 ---
-
