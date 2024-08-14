@@ -6,7 +6,7 @@ Certainly! Here’s the updated README for your "Discoreo" bot, translated into 
 
 ## 📝 Introduction
 
-**Discoreo** is a Discord bot developed with **Node.js 16** and **Discord.js v13**. This bot serves as a template, providing a solid foundation to build your own Discord bot. It includes a few basic commands in the `/` folder for moderation, fun, and information, which you can easily customize or extend to meet your needs.
+**Discoreo** is a Discord bot that use **Node.js 16** and **Discord.js v13**. This bot serves as a template, providing a solid foundation to build your own Discord bot. It includes a few basic commands in the `Commands` folder for moderation, fun, and information, which you can easily customize or extend to meet your needs.
 
 ## ⚙️ Features
 
