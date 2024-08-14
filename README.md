@@ -1,4 +1,3 @@
-Certainly! Here’s the updated README for your "Discoreo" bot, translated into English:
 
 ---
 
